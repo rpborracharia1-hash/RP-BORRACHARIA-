@@ -19,14 +19,15 @@ gtag('config', 'AW-16709073192');
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0f0f0f;
+    background: linear-gradient(180deg, #0b0b0b, #1a1a1a);
     color: white;
     text-align: center;
 }
 
+/* TOPO */
 header {
-    background: #ff6a00;
-    padding: 30px 15px;
+    background: linear-gradient(135deg, #ff6a00, #ff2d2d);
+    padding: 35px 15px;
 }
 
 header h1 {
@@ -36,23 +37,27 @@ header h1 {
 
 header p {
     margin: 8px 0;
+    font-size: 15px;
 }
 
-.urgencia {
-    color: #ffcc00;
-    font-weight: bold;
+.sos {
     margin-top: 10px;
+    font-weight: bold;
+    color: #ffd400;
+    font-size: 16px;
 }
 
+/* CONTAINER */
 .container {
     padding: 20px;
 }
 
 .box {
-    background: #1c1c1c;
+    background: #222;
     margin: 20px 0;
     padding: 20px;
-    border-radius: 12px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
 /* BOTÕES */
@@ -69,12 +74,12 @@ header p {
 }
 
 .ligar {
-    background: #FF3B30;
+    background: #ff3b30;
     color: white;
 }
 
 .whatsapp {
-    background: #25D366;
+    background: #25d366;
     color: white;
 }
 </style>
@@ -86,21 +91,19 @@ header p {
 <h1>🚗 RP BORRACHARIA MÓVEL 24H</h1>
 <p>São José do Rio Preto e região</p>
 
-<p class="urgencia">
-🚨 PNEU FURADO OU DESEMPENCHADO AGORA? ATENDIMENTO IMEDIATO 24H
+<p class="sos">
+SOS SOCORRO MÓVEL 24H • SÃO JOSÉ DO RIO PRETO E REGIÃO
 </p>
-
-<p>⚡ Resposta rápida em até 10 minutos</p>
 </header>
 
 <div class="container">
 
 <div class="box">
-<h2>🚨 SOCORRO DE PNEU NO LOCAL</h2>
-<p>Atendimento rápido, seguro e 24 horas em toda região de Rio Preto.</p>
+<h2>🚨 Atendimento de Emergência no Local</h2>
+<p>Serviço rápido e seguro para pneus furados e problemas na estrada.</p>
 </div>
 
-<!-- BOTÃO LIGAR (COM CONVERSÃO) -->
+<!-- BOTÃO LIGAR -->
 <a href="tel:+5517992731579" class="btn ligar"
 onclick="gtag('event', 'conversion', {
 'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'
@@ -108,7 +111,7 @@ onclick="gtag('event', 'conversion', {
 📞 Ligar Agora
 </a>
 
-<!-- BOTÃO WHATSAPP (COM CONVERSÃO SEGURA) -->
+<!-- BOTÃO WHATSAPP -->
 <a href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel%20agora"
 class="btn whatsapp"
 onclick="gtag('event', 'conversion', {
