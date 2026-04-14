@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>RP Borracharia Móvel 24h</title>
+<title>RP Borracharia Móvel 24h | Socorro de Pneu em Rio Preto</title>
+
+<meta name="description" content="Borracharia móvel 24h em São José do Rio Preto e região. Atendimento rápido no local para pneus furados, troca de estepe e socorro na estrada. Ligue ou WhatsApp agora.">
+
+<meta name="robots" content="index, follow">
 
 <!-- Google Ads Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16709073192"></script>
@@ -19,45 +23,63 @@ gtag('config', 'AW-16709073192');
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #0b0b0b, #1a1a1a);
+    background: #0f0f0f;
     color: white;
-    text-align: center;
 }
 
 /* TOPO */
 header {
     background: linear-gradient(135deg, #ff6a00, #ff2d2d);
-    padding: 35px 15px;
+    padding: 30px 15px;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 header p {
-    margin: 8px 0;
-    font-size: 15px;
+    margin: 5px 0;
 }
 
 .sos {
     margin-top: 10px;
     font-weight: bold;
     color: #ffd400;
-    font-size: 16px;
 }
 
 /* CONTAINER */
 .container {
     padding: 20px;
+    text-align: center;
 }
 
+/* BOX */
 .box {
-    background: #222;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 14px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background: #1c1c1c;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+/* SERVIÇOS */
+.servicos {
+    background: #1c1c1c;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.servicos h2 {
+    text-align: center;
+    color: #ffd400;
+}
+
+.servicos li {
+    padding: 6px 0;
+    border-bottom: 1px solid #333;
 }
 
 /* BOTÕES */
@@ -65,12 +87,13 @@ header p {
     display: block;
     width: 90%;
     max-width: 320px;
-    margin: 15px auto;
+    margin: 12px auto;
     padding: 18px;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .ligar {
@@ -82,6 +105,32 @@ header p {
     background: #25d366;
     color: white;
 }
+
+/* BOTÃO FIXO (MELHORA MUITO CONVERSÃO) */
+.fixo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.fixo a {
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.fixo .call {
+    background: #ff3b30;
+}
+
+.fixo .zap {
+    background: #25d366;
+}
 </style>
 </head>
 
@@ -90,36 +139,47 @@ header p {
 <header>
 <h1>🚗 RP BORRACHARIA MÓVEL 24H</h1>
 <p>São José do Rio Preto e região</p>
-
-<p class="sos">
-SOS SOCORRO MÓVEL 24H • SÃO JOSÉ DO RIO PRETO E REGIÃO
-</p>
+<p class="sos">SOS • ATENDIMENTO RÁPIDO 24 HORAS</p>
 </header>
 
 <div class="container">
 
 <div class="box">
 <h2>🚨 Atendimento de Emergência no Local</h2>
-<p>Serviço rápido e seguro para pneus furados e problemas na estrada.</p>
+<p>Chegamos até você rapidamente para resolver seu problema de pneu na estrada ou na cidade.</p>
 </div>
 
-<!-- BOTÃO LIGAR -->
+<!-- SERVIÇOS -->
+<div class="servicos">
+<h2>🛠 Nossos Serviços</h2>
+<ul>
+<li>Conserto de pneus furados</li>
+<li>Troca de câmara de ar</li>
+<li>Troca de estepe</li>
+<li>Socorro na estrada</li>
+<li>Atendimento 24 horas</li>
+<li>Serviço rápido e seguro</li>
+<li>Preço justo e confiança</li>
+</ul>
+</div>
+
+<!-- BOTÕES PRINCIPAIS -->
 <a href="tel:+5517992731579" class="btn ligar"
-onclick="gtag('event', 'conversion', {
-'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'
-});">
+onclick="gtag('event', 'conversion', {'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'});">
 📞 Ligar Agora
 </a>
 
-<!-- BOTÃO WHATSAPP -->
-<a href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel%20agora"
-class="btn whatsapp"
-onclick="gtag('event', 'conversion', {
-'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'
-});">
+<a href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel%20agora" class="btn whatsapp"
+onclick="gtag('event', 'conversion', {'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'});">
 💬 WhatsApp Agora
 </a>
 
+</div>
+
+<!-- BOTÃO FIXO -->
+<div class="fixo">
+<a class="call" href="tel:+5517992731579">📞 Ligar</a>
+<a class="zap" href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20agora">💬 WhatsApp</a>
 </div>
 
 </body>
