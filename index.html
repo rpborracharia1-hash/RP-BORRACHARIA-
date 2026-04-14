@@ -26,12 +26,22 @@ body {
 
 header {
     background: #ff6a00;
-    padding: 25px 15px;
+    padding: 30px 15px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 26px;
+}
+
+header p {
+    margin: 8px 0;
+}
+
+.urgencia {
+    color: #ffcc00;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .container {
@@ -73,24 +83,34 @@ header h1 {
 <body>
 
 <header>
-<h1>🚗 Borracharia Móvel 24h</h1>
+<h1>🚗 RP BORRACHARIA MÓVEL 24H</h1>
 <p>São José do Rio Preto e região</p>
-<p>⚡ Atendimento rápido no local</p>
+
+<p class="urgencia">
+🚨 PNEU FURADO OU DESEMPENCHADO AGORA? ATENDIMENTO IMEDIATO 24H
+</p>
+
+<p>⚡ Resposta rápida em até 10 minutos</p>
 </header>
 
 <div class="container">
 
 <div class="box">
-<h2>🚨 Pneu furou agora?</h2>
-<p>Atendimento imediato no local. Socorro 24h em Rio Preto.</p>
+<h2>🚨 SOCORRO DE PNEU NO LOCAL</h2>
+<p>Atendimento rápido, seguro e 24 horas em toda região de Rio Preto.</p>
 </div>
 
-<!-- ÚNICOS BOTÕES -->
-<a href="tel:+5517992731579" class="btn ligar">
+<!-- BOTÃO LIGAR (COM CONVERSÃO) -->
+<a href="tel:+5517992731579" class="btn ligar"
+onclick="gtag('event', 'conversion', {
+'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'
+});">
 📞 Ligar Agora
 </a>
 
-<a href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel%20agora" class="btn whatsapp"
+<!-- BOTÃO WHATSAPP (COM CONVERSÃO SEGURA) -->
+<a href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel%20agora"
+class="btn whatsapp"
 onclick="gtag('event', 'conversion', {
 'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'
 });">
