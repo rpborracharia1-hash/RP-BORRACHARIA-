@@ -86,12 +86,15 @@
         </p>
     </div>
 
-    <!-- BOTÃO WHATSAPP COM CONVERSÃO (CORRIGIDO) -->
+    <!-- ✅ BOTÃO WHATSAPP CORRIGIDO -->
     <a href="https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel" 
        class="btn whatsapp"
        onclick="gtag('event', 'conversion', {
-         'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-'
-       });">
+         'send_to': 'AW-16709073192/bcMMCMCAoJgcEKjywJ8-',
+         'event_callback': function () {
+           window.location.href = 'https://wa.me/5517992731579?text=Preciso%20de%20borracharia%20móvel';
+         }
+       }); return false;">
        📲 Falar no WhatsApp
     </a>
 
